@@ -1,0 +1,237 @@
+{
+  "name": "Chelsea Pride",
+  "type": "dark",
+  "colors": {
+    // Editor colors
+    "editor.background": "#0A0B3B", // Main editor background
+    "editor.foreground": "#FFFFFF", // Default text color
+    "editor.selectionBackground": "#1C2C70", // Selected text background
+    "editor.lineHighlightBackground": "#141E50", // Highlighted line background
+    "editorCursor.foreground": "#FFD700", // Cursor color
+    "editorLineNumber.foreground": "#4E5A70", // Line number color
+    "editorLineNumber.activeForeground": "#DBAA11", // Active line number color
+    "editorIndentGuide.background1": "#1C2C70", // Indent guide color
+    "editorIndentGuide.activeBackground1": "#034694", // Active indent guide color
+    "editorWhitespace.foreground": "#1C2C70", // Whitespace character color
+    "editorBracketMatch.background": "#1C2C70", // Bracket match background
+    "editorBracketMatch.border": "#00A3E0", // Bracket match border
+    "editorGutter.modifiedBackground": "#FFD700", // Gutter color for modified lines
+    "editorGutter.addedBackground": "#17C964", // Gutter color for added lines
+    "editorGutter.deletedBackground": "#FF3B30", // Gutter color for deleted lines
+
+    // Activity bar colors
+    "activityBar.background": "#061C3E", // Activity bar background
+    "activityBar.foreground": "#FFFFFF", // Activity bar icon color
+    "activityBarBadge.background": "#FFD700", // Badge background
+    "activityBarBadge.foreground": "#061C3E", // Badge text color
+    "activityBar.activeBorder": "#FFD700", // Active item border
+
+    // Sidebar colors
+    "sideBar.background": "#061C3E", // Sidebar background
+    "sideBar.foreground": "#B0C4DE", // Sidebar text color
+    "sideBar.border": "#102A54", // Sidebar border
+    "sideBarSectionHeader.background": "#102A54", // Section header background
+    "sideBarSectionHeader.foreground": "#DBAA11", // Section header text color
+    "sideBarTitle.foreground": "#FFFFFF", // Sidebar title color
+
+    // Status bar colors
+    "statusBar.background": "#0A0B3B", // Status bar background
+    "statusBar.foreground": "#FFFFFF", // Status bar text color
+    "statusBar.noFolderBackground": "#061C3E", // Status bar background (no folder)
+    "statusBar.debuggingBackground": "#EE242C", // Debugging background
+    "statusBar.debuggingForeground": "#FFFFFF", // Debugging text color
+
+    // Title bar colors
+    "titleBar.activeBackground": "#061C3E", // Active title bar background
+    "titleBar.activeForeground": "#FFFFFF", // Active title bar text
+    "titleBar.inactiveBackground": "#0A0B3B", // Inactive title bar background
+    "titleBar.inactiveForeground": "#B0B6C1", // Inactive title bar text
+
+    // Button colors
+    "button.background": "#FFD700", // Button background
+    "button.foreground": "#0A0B3B", // Button text color
+    "button.hoverBackground": "#DBAA11", // Button hover background
+
+    // Input colors
+    "input.background": "#102A54", // Input field background
+    "input.foreground": "#FFFFFF", // Input text color
+    "input.border": "#1C2C70", // Input border color
+    "input.placeholderForeground": "#B0B6C1", // Placeholder text color
+
+    // Panel colors
+    "panel.background": "#0A0B3B", // Panel background
+    "panel.border": "#102A54", // Panel border
+    "panelTitle.activeForeground": "#FFD700", // Active panel title
+    "panelTitle.inactiveForeground": "#B0C4DE", // Inactive panel title
+
+    // Terminal colors
+    "terminal.background": "#0A0B3B", // Terminal background
+    "terminal.foreground": "#F2F2F2", // Terminal text color
+    "terminalCursor.foreground": "#FFD700", // Terminal cursor color
+    "terminal.ansiBlack": "#0A0B3B", // ANSI black
+    "terminal.ansiBlue": "#1E90FF", // ANSI blue
+    "terminal.ansiCyan": "#00BFFF", // ANSI cyan
+    "terminal.ansiGreen": "#17C964", // ANSI green
+    "terminal.ansiMagenta": "#FF6B00", // ANSI magenta
+    "terminal.ansiRed": "#FF3B30", // ANSI red
+    "terminal.ansiWhite": "#FFFFFF", // ANSI white
+    "terminal.ansiYellow": "#DBAA11", // ANSI yellow
+
+    // Tab colors
+    "tab.activeBackground": "#0A0B3B", // Active tab background
+    "tab.inactiveBackground": "#141E50", // Inactive tab background
+    "tab.activeForeground": "#FFD700", // Active tab text
+    "tab.inactiveForeground": "#B0B6C1", // Inactive tab text
+    "tab.border": "#102A54", // Tab border
+
+    // Breadcrumb colors
+    "breadcrumb.foreground": "#B0C4DE", // Breadcrumb text
+    "breadcrumb.activeSelectionForeground": "#FFD700", // Active breadcrumb
+    "breadcrumbPicker.background": "#102A54", // Breadcrumb picker background
+
+    // Scrollbar colors
+    "scrollbarSlider.background": "#1C2C70AA", // Scrollbar background
+    "scrollbarSlider.hoverBackground": "#034694AA", // Scrollbar hover
+    "scrollbarSlider.activeBackground": "#FFD700AA", // Scrollbar active
+
+    // Focus border
+    "focusBorder": "#FFD700", // Focused element border
+
+    // Widget shadow
+    "widget.shadow": "#00000080", // Widget shadow
+
+    // Peek view colors
+    "peekView.border": "#FFD700", // Peek view border
+    "peekViewEditor.background": "#0A0B3B", // Peek view editor background
+
+    // Git decoration colors
+    "gitDecoration.addedResourceForeground": "#17C964", // Added resource
+    "gitDecoration.modifiedResourceForeground": "#FFD700", // Modified resource
+    "gitDecoration.deletedResourceForeground": "#EE242C", // Deleted resource
+    "gitDecoration.untrackedResourceForeground": "#87CEFA", // Untracked resource
+    "gitDecoration.ignoredResourceForeground": "#4E5A70", // Ignored resource
+
+    // Diff editor colors
+    "diffEditor.insertedTextBackground": "#17C96422", // Inserted text background
+    "diffEditor.removedTextBackground": "#EE242C22", // Removed text background
+
+    // Minimap colors
+    "minimap.background": "#0A0B3B", // Minimap background
+    "minimap.selectionHighlight": "#FFD70066", // Minimap selection highlight
+
+    // Editor overview ruler
+    "editorOverviewRuler.border": "#034694", // Overview ruler border
+
+    // Quick input colors
+    "quickInput.background": "#102A54", // Quick input background
+    "quickInput.foreground": "#FFFFFF", // Quick input text
+    "pickerGroup.foreground": "#FFD700", // Picker group text
+    "pickerGroup.border": "#1C2C70" // Picker group border
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#A9A9A9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#1E90FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#DBAA11"
+      }
+    },
+    {
+      "name": "Functions and Methods",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#FF4500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#87CEFA"
+      }
+    },
+    {
+      "name": "Numbers and Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant"
+      ],
+      "settings": {
+        "foreground": "#FFA500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes and Types",
+      "scope": [
+        "entity.name.type",
+        "support.class",
+        "storage.type.class"
+      ],
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operators and Punctuation",
+      "scope": [
+        "punctuation",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Readonly Variables",
+      "scope": "variable.readonly",
+      "settings": {
+        "foreground": "#FF8C00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#B0C4DE"
+      }
+    }
+  ],
+  "semanticHighlighting": true
+}
