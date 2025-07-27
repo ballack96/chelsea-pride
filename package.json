@@ -2,12 +2,14 @@
   "name": "chelsea-pride-theme",
   "displayName": "Chelsea Pride Theme",
   "description": "A high-contrast VS Code theme inspired by Chelsea FC, with dark-mode brilliance and Stamford Bridge vibes.",
-  "version": "1.0.0",
-  "publisher": "ranojoy",
+  "version": "1.0.1",
+  "publisher": "noobster",
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "icon": "icon.png",
   "contributes": {
     "themes": [
@@ -15,6 +17,11 @@
         "label": "Chelsea Pride",
         "uiTheme": "vs-dark",
         "path": "./themes/chelsea-pride-color-theme.json"
+      },
+      {
+        "label": "Chelsea Pride Away",
+        "uiTheme": "vs",
+        "path": "./themes/chelsea-pride-away-theme.json"
       }
     ]
   },
@@ -22,5 +29,13 @@
     "type": "git",
     "url": "https://github.com/ballack96/chelsea-pride-theme"
   },
-  "keywords": ["chelsea", "football", "dark", "high-contrast", "material", "theme", "vscode"]
+  "keywords": [
+    "chelsea",
+    "football",
+    "dark",
+    "high-contrast",
+    "material",
+    "theme",
+    "vscode"
+  ]
 }
