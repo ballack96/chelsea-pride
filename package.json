@@ -2,7 +2,7 @@
   "name": "chelsea-pride-theme",
   "displayName": "Chelsea Pride Theme",
   "description": "A high-contrast VS Code theme inspired by Chelsea FC, with dark-mode brilliance and Stamford Bridge vibes.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "publisher": "ranojoy",
   "engines": {
     "vscode": "^1.85.0"
