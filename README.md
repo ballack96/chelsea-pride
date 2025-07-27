@@ -1,23 +1,49 @@
 # ⚽ Chelsea Pride — VS Code Theme
 
-A bold, dark-mode theme inspired by **Chelsea FC** with gold, royal blue, and high-contrast highlights.
+A bold, stylish, and readable VS Code theme inspired by **Chelsea FC** — available in both **dark (Home)** and **light (Away)** versions.
+
+<div align="center">
+  <img src="https://img.shields.io/visual-studio-marketplace/v/ranojoy.chelsea-pride-theme?label=VS%20Marketplace" />
+  <img src="https://img.shields.io/visual-studio-marketplace/d/ranojoy.chelsea-pride-theme" />
+</div>
+
+---
+
+## 🎨 Themes Included
+
+| Name                   | Description                         |
+|------------------------|-------------------------------------|
+| 🟦 Chelsea Pride       | Dark mode — royal blue & gold       |
+| 🟡 Chelsea Pride Away  | Light mode — gold, teal, clean lines|
+
+---
 
 ## 🖼 Preview
 
-![Preview](./screenshot.png)
+### 🟦 Dark Mode (Home)
+> Royal Blue, Golden Tabs, Midnight Panel
 
-## 🎨 Features
+![Dark Mode](./screenshots/dark-preview.png)
 
-- Custom syntax: gold, red, and deep blue tones
-- UI theming: tabs, panels, inputs, git decorations
-- Optimized for readability and accessibility
-- Atom Material Icons compatible
+### 🟡 Light Mode (Away)
+> Bright, Legible, Inspired by 23/24 Away Kit
 
-## 📦 Installation
+![Light Mode](./screenshots/light-preview.png)
 
-1. Search `Chelsea Pride Theme` on VS Code Marketplace
-2. Or install from `.vsix` file:
+---
+
+## 🚀 Installation
+
+### From VS Code Marketplace
+
+1. Open Extensions panel (`Ctrl + Shift + X`)
+2. Search for:  Chelsea Pride Theme
+3. Click **Install**, then choose:
+
+- `Chelsea Pride`
+- `Chelsea Pride Away`
+
+### Or via Terminal
 
 ```bash
-code --install-extension chelsea-pride-theme.vsix
-```
+code --install-extension ranojoy.chelsea-pride-theme
