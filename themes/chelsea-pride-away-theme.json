@@ -20,41 +20,41 @@
     "editorGutter.deletedBackground": "#EE242C", // Deleted line gutter
 
     // ===== Activity Bar =====
-    "activityBar.background": "#FFFFFF", // Activity bar background
-    "activityBar.foreground": "#1D1D1F", // Activity bar icons
-    "activityBarBadge.background": "#007FA6", // Badge background
-    "activityBarBadge.foreground": "#FFFFFF", // Badge text
-    "activityBar.activeBorder": "#007FA6", // Active item border
+    "activityBar.background": "#034694", // Activity bar background
+    "activityBar.foreground": "#FFFFFF", // Activity bar icons
+    "activityBarBadge.background": "#FFD700", // Badge background
+    "activityBarBadge.foreground": "#034694", // Badge text
+    "activityBar.activeBorder": "#FFD700", // Active item border
 
     // ===== Side Bar =====
-    "sideBar.background": "#F1F5F9", // Sidebar background
+    "sideBar.background": "#E6F4F8", // Sidebar background
     "sideBar.foreground": "#1D1D1F", // Sidebar text
-    "sideBar.border": "#D1D5DB", // Sidebar border
-    "sideBarSectionHeader.background": "#E2E8F0", // Section header background
+    "sideBar.border": "#CCE8F1", // Sidebar border
+    "sideBarSectionHeader.background": "#FFD700", // Section header background
     "sideBarSectionHeader.foreground": "#007FA6", // Section header text
     "sideBarTitle.foreground": "#1D1D1F", // Sidebar title
 
     // ===== Status Bar =====
-    "statusBar.background": "#FFFFFF", // Status bar background
-    "statusBar.foreground": "#007FA6", // Status bar text
+    "statusBar.background": "#FFD700", // Status bar background
+    "statusBar.foreground": "#0A0B3B", // Status bar text
     "statusBar.noFolderBackground": "#F1F5F9", // No folder background
     "statusBar.debuggingBackground": "#EE242C", // Debugging background
     "statusBar.debuggingForeground": "#FFFFFF", // Debugging text
 
     // ===== Title Bar =====
-    "titleBar.activeBackground": "#F7F9FC", // Active title bar background
-    "titleBar.activeForeground": "#1D1D1F", // Active title bar text
-    "titleBar.inactiveBackground": "#E2E8F0", // Inactive title bar background
-    "titleBar.inactiveForeground": "#9CA3AF", // Inactive title bar text
+    "titleBar.activeBackground": "#FFD700", // Active title bar background
+    "titleBar.activeForeground": "#0A0B3B", // Active title bar text
+    "titleBar.inactiveBackground": "#FFE066", // Inactive title bar background
+    "titleBar.inactiveForeground": "#1D1D1F", // Inactive title bar text
 
     // ===== Buttons & Inputs =====
     "button.background": "#007FA6", // Button background
     "button.foreground": "#FFFFFF", // Button text
     "button.hoverBackground": "#0195C8", // Button hover
-    "input.background": "#FFFFFF", // Input background
+    "input.background": "#E6F4F8", // Input background
     "input.foreground": "#1D1D1F", // Input text
-    "input.border": "#CCE8F1", // Input border
-    "input.placeholderForeground": "#9CA3AF", // Input placeholder
+    "input.border": "#007FA6", // Input border
+    "input.placeholderForeground": "#6B7280", // Input placeholder
 
     // ===== Panels =====
     "panel.background": "#FFFFFF", // Panel background
@@ -76,11 +76,11 @@
     "terminal.ansiYellow": "#DBA111",
 
     // ===== Tabs =====
-    "tab.activeBackground": "#FFFFFF", // Active tab background
-    "tab.inactiveBackground": "#E4ECF5", // Inactive tab background
-    "tab.activeForeground": "#007FA6", // Active tab text
-    "tab.inactiveForeground": "#9CA3AF", // Inactive tab text
-    "tab.border": "#CCE8F1", // Tab border
+    "tab.activeBackground": "#FFF8DC", // Active tab background
+    "tab.inactiveBackground": "#F1F5F9", // Inactive tab background
+    "tab.activeForeground": "#DBA111", // Active tab text
+    "tab.inactiveForeground": "#6B7280", // Inactive tab text
+    "tab.border": "#FFD700", // Tab border
 
     // ===== Breadcrumbs =====
     "breadcrumb.foreground": "#9CA3AF", // Breadcrumb text
@@ -120,7 +120,31 @@
     "quickInput.background": "#FFFFFF", // Quick input background
     "quickInput.foreground": "#1D1D1F", // Quick input text
     "pickerGroup.foreground": "#007FA6", // Picker group text
-    "pickerGroup.border": "#CCE8F1" // Picker group border
+    "pickerGroup.border": "#CCE8F1", // Picker group border
+
+    // ===== Notebooks =====
+    "notebook.cellEditorBackground": "#FFFFFF",
+    "notebook.cellBorderColor": "#D1D5DB",
+    "notebook.focusedCellBackground": "#F7F9FC",
+    "notebook.focusedCellBorder": "#007FA6",
+    "notebook.editorBackground": "#FFFFFF",
+    "notebookSymbolHighlightBackground": "#CCE8F199",
+    "notebook.cellToolbarSeparator": "#D1D5DB",
+    "notebook.cellHoverBackground": "#F1F5F9",
+    "notebook.cellInsertionIndicator": "#007FA6",
+    "notebook.outputContainerBackgroundColor": "#FAFAFA",
+    "notebook.outputContainerBorderColor": "#E5E7EB",
+
+    // ===== List  =====
+    "list.activeSelectionBackground": "#CCE8F1",
+    "list.activeSelectionForeground": "#1D1D1F",
+    "list.inactiveSelectionBackground": "#E2E8F0",
+    "list.inactiveSelectionForeground": "#1D1D1F",
+    "list.hoverBackground": "#F0F7FA",
+    "list.hoverForeground": "#1D1D1F",
+    "list.focusBackground": "#007FA6",
+    "list.focusForeground": "#FFFFFF",
+    "list.highlightForeground": "#007FA6"
   },
   "tokenColors": [
     {
