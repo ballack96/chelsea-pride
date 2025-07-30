@@ -34,3 +34,5 @@ logs/
 *.sublime-workspace
 *.sublime-project
 
+# Test Review
+test/

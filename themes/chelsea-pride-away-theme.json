@@ -226,6 +226,204 @@
       "settings": {
         "foreground": "#1F2937"
       }
+    },
+    {
+      "name": "HTML/XML Tags",
+      "scope": ["entity.name.tag", "meta.tag"],
+      "settings": {
+        "foreground": "#007FA6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML/XML Attribute Names",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#004F9F"
+      }
+    },
+    {
+      "name": "HTML/XML Attribute Values",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.quoted.double.xml",
+        "string.quoted.single.xml"
+      ],
+      "settings": {
+        "foreground": "#EE242C"
+      }
+    },
+    {
+      "name": "HTML Tag Punctuation",
+      "scope": [
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
+      ],
+      "settings": {
+        "foreground": "#1F2937"
+      }
+    },
+    {
+      "name": "Markdown Headers",
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#034694",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Links",
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#007FA6",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown Lists",
+      "scope": ["markup.list"],
+      "settings": {
+        "foreground": "#1F2937"
+      }
+    },
+    {
+      "name": "Markdown Blockquotes",
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#9CA3AF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Code Blocks",
+      "scope": ["markup.raw"],
+      "settings": {
+        "foreground": "#1D1D1F",
+        "background": "#F7F9FC",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS Selectors",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#004F9F",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#007FA6"
+      }
+    },
+    {
+      "name": "CSS Values",
+      "scope": ["constant.other.color", "constant.other.unit"],
+      "settings": {
+        "foreground": "#DBA111"
+      }
+    },
+    {
+      "name": "CSS Pseudo-classes and Pseudo-elements",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#1F2937",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSON Keys",
+      "scope": ["string.quoted.double.json"],
+      "settings": {
+        "foreground": "#004F9F"
+      }
+    },
+    {
+      "name": "JSON Values",
+      "scope": [
+        "constant.numeric.json",
+        "string.quoted.double.json",
+        "boolean.json"
+      ],
+      "settings": {
+        "foreground": "#1D1D1F"
+      }
+    },
+    {
+      "name": "JSON Comments",
+      "scope": ["comment.line.double-slash.json"],
+      "settings": {
+        "foreground": "#9CA3AF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "YAML Keys",
+      "scope": ["entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#004F9F"
+      }
+    },
+    {
+      "name": "YAML Values",
+      "scope": ["string.quoted.double.yaml", "constant.numeric.yaml"],
+      "settings": {
+        "foreground": "#1D1D1F"
+      }
+    },
+    {
+      "name": "YAML Comments",
+      "scope": ["comment.line.number-sign.yaml"],
+      "settings": {
+        "foreground": "#9CA3AF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML/XML Tags (Light)",
+      "scope": ["entity.name.tag", "meta.tag", "markup.deleted.git_gutter"],
+      "settings": {
+        "foreground": "#007FA6", // tag name (teal)
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML/XML Attribute Names (Light)",
+      "scope": ["entity.other.attribute-name", "markup.changed.git_gutter"],
+      "settings": {
+        "foreground": "#004F9F" // deeper Chelsea blue
+      }
+    },
+    {
+      "name": "HTML/XML Attribute Values (Light)",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.quoted.double.xml",
+        "string.quoted.single.xml"
+      ],
+      "settings": {
+        "foreground": "#EE242C" // accent red
+      }
+    },
+    {
+      "name": "HTML Tag Punctuation (Light)",
+      "scope": [
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
+      ],
+      "settings": {
+        "foreground": "#1F2937" // dark slate for readability
+      }
     }
   ],
   "semanticHighlighting": true
